@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
+console.log(process.env.NODE_ENV)
+console.log(process.env.VUE_APP_MOCK_URL)
 
 new Vue({
   router,
